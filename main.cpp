@@ -70,7 +70,7 @@ class Food {
 
         Food(deque<Vector2> snakeBody){
             position = generateRandomPos(snakeBody);
-            Image image = LoadImage("../Graphics/food.png");
+            Image image = LoadImage("Graphics/food.png");
             texture = LoadTextureFromImage(image);
             UnloadImage(image);
         }

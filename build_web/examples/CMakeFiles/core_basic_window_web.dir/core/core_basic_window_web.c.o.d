@@ -1,0 +1,27 @@
+examples/CMakeFiles/core_basic_window_web.dir/core/core_basic_window_web.c.o: \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/examples/core/core_basic_window_web.c \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/src/raylib.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/emscripten.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_asm.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_macros.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_types.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/em_js.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/promise.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/wget.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/emscripten/version.h

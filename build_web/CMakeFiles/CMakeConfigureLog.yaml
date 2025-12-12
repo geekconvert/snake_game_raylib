@@ -1,0 +1,584 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Darwin - 24.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out.js"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out.wasm"
+      
+      The C compiler identification could not be found in:
+        /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/4.0.1/CompilerIdC/a.out.js
+      
+      The C compiler identification is Clang, found in:
+        /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/4.0.1/CompilerIdC/a.out.wasm
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/em++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.js"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.wasm"
+      
+      The CXX compiler identification could not be found in:
+        /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/4.0.1/CompilerIdCXX/a.out.js
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/4.0.1/CompilerIdCXX/a.out.wasm
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7bc62/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7bc62.dir/build.make CMakeFiles/cmTC_7bc62.dir/build
+        Building C object CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o.d -oCMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang version 21.0.0git (https:/github.com/llvm/llvm-project 57025b42c43b2f14f7e58692bc19cd53d1b8a45e)
+        Target: wasm32-unknown-emscripten
+        Thread model: posix
+        InstalledDir: /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin
+         (in-process)
+         "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU -v -fcoverage-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU -resource-dir /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -sys-header-deps -D EMSCRIPTEN -isysroot /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin24.4.0
+        ignoring nonexistent directory "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include
+        End of search list.
+        Linking C executable cmTC_7bc62.js
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc62.dir/link.txt --verbose=1
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang --version
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/wasm-ld -o cmTC_7bc62.wasm CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/q7/65nlg0zd5hjgcqv94sy5d8740000gn/T/tmpb8wcmec0libemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/llvm-objcopy cmTC_7bc62.wasm cmTC_7bc62.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
+         /Users/anishkumardubey/Desktop/projects/emsdk/node/20.18.0_64bit/bin/node /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/tools/compiler.mjs -
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc  -v @CMakeFiles/cmTC_7bc62.dir/objects1.rsp -o cmTC_7bc62.js
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+        end of search list found
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+        implicit include dirs: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7bc62/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7bc62.dir/build.make CMakeFiles/cmTC_7bc62.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc   -v -MD -MT CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o.d -oCMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 21.0.0git (https:/github.com/llvm/llvm-project 57025b42c43b2f14f7e58692bc19cd53d1b8a45e)]
+        ignore line: [Target: wasm32-unknown-emscripten]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU -v -fcoverage-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-4P4kWU -resource-dir /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -sys-header-deps -D EMSCRIPTEN -isysroot /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fignore-exceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin24.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_7bc62.js]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bc62.dir/link.txt --verbose=1]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang --version]
+        link line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/wasm-ld -o cmTC_7bc62.wasm CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/q7/65nlg0zd5hjgcqv94sy5d8740000gn/T/tmpb8wcmec0libemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
+          arg [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/wasm-ld] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7bc62.wasm] ==> ignore
+          arg [CMakeFiles/cmTC_7bc62.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+          arg [-L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib] ==> dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib]
+          arg [-lGL-getprocaddr] ==> lib [GL-getprocaddr]
+          arg [-lal] ==> lib [al]
+          arg [-lhtml5] ==> lib [html5]
+          arg [-lstubs-debug] ==> lib [stubs-debug]
+          arg [-lnoexit] ==> lib [noexit]
+          arg [-lc-debug] ==> lib [c-debug]
+          arg [-ldlmalloc-debug] ==> lib [dlmalloc-debug]
+          arg [-lcompiler_rt] ==> lib [compiler_rt]
+          arg [-lc++-noexcept] ==> lib [c++-noexcept]
+          arg [-lc++abi-debug-noexcept] ==> lib [c++abi-debug-noexcept]
+          arg [-lsockets] ==> lib [sockets]
+          arg [-mllvm] ==> ignore
+          arg [-combiner-global-alias-analysis=false] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-emscripten-sjlj] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-disable-lsr] ==> ignore
+          arg [/var/folders/q7/65nlg0zd5hjgcqv94sy5d8740000gn/T/tmpb8wcmec0libemscripten_js_symbols.so] ==> ignore
+          arg [--strip-debug] ==> ignore
+          arg [--export=emscripten_stack_get_end] ==> ignore
+          arg [--export=emscripten_stack_get_free] ==> ignore
+          arg [--export=emscripten_stack_get_base] ==> ignore
+          arg [--export=emscripten_stack_get_current] ==> ignore
+          arg [--export=emscripten_stack_init] ==> ignore
+          arg [--export=_emscripten_stack_alloc] ==> ignore
+          arg [--export=__wasm_call_ctors] ==> ignore
+          arg [--export=_emscripten_stack_restore] ==> ignore
+          arg [--export-if-defined=__start_em_asm] ==> ignore
+          arg [--export-if-defined=__stop_em_asm] ==> ignore
+          arg [--export-if-defined=__start_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__stop_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__start_em_js] ==> ignore
+          arg [--export-if-defined=__stop_em_js] ==> ignore
+          arg [--export-if-defined=main] ==> ignore
+          arg [--export-if-defined=__main_argc_argv] ==> ignore
+          arg [--export-if-defined=fflush] ==> ignore
+          arg [--export-table] ==> ignore
+          arg [-zstack-size=65536] ==> ignore
+          arg [--no-growable-memory] ==> ignore
+          arg [--initial-heap=16777216] ==> ignore
+          arg [--no-entry] ==> ignore
+          arg [--stack-first] ==> ignore
+          arg [--table-base=1] ==> ignore
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/llvm-objcopy cmTC_7bc62.wasm cmTC_7bc62.wasm --remove-section=.debug* --remove-section=producers --remove-section=name]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/node/20.18.0_64bit/bin/node /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/tools/compiler.mjs -]
+        ignore line: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc  -v @CMakeFiles/cmTC_7bc62.dir/objects1.rsp -o cmTC_7bc62.js]
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+        collapse library dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib]
+        implicit libs: [GL-getprocaddr;al;html5;stubs-debug;noexit;c-debug;dlmalloc-debug;compiler_rt;c++-noexcept;c++abi-debug-noexcept;sockets]
+        implicit objs: []
+        implicit dirs: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2ccfb/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2ccfb.dir/build.make CMakeFiles/cmTC_2ccfb.dir/build
+        Building CXX object CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o.d -oCMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 21.0.0git (https:/github.com/llvm/llvm-project 57025b42c43b2f14f7e58692bc19cd53d1b8a45e)
+        Target: wasm32-unknown-emscripten
+        Thread model: posix
+        InstalledDir: /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin
+         (in-process)
+         "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM -v -fcoverage-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM -resource-dir /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -isysroot /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin24.4.0
+        ignoring nonexistent directory "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"
+        ignoring nonexistent directory "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include
+        End of search list.
+        Linking CXX executable cmTC_2ccfb.js
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ccfb.dir/link.txt --verbose=1
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang --version
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/wasm-ld -o cmTC_2ccfb.wasm CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/q7/65nlg0zd5hjgcqv94sy5d8740000gn/T/tmpw45ogkmvlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1
+         /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/llvm-objcopy cmTC_2ccfb.wasm cmTC_2ccfb.wasm --remove-section=.debug* --remove-section=producers --remove-section=name
+         /Users/anishkumardubey/Desktop/projects/emsdk/node/20.18.0_64bit/bin/node /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/tools/compiler.mjs -
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/em++  -v @CMakeFiles/cmTC_2ccfb.dir/objects1.rsp -o cmTC_2ccfb.js
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include]
+          add: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+        end of search list found
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include]
+        collapse include dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+        implicit include dirs: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2ccfb/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2ccfb.dir/build.make CMakeFiles/cmTC_2ccfb.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/em++   -v -MD -MT CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang++" -target wasm32-unknown-emscripten -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr --sysroot=/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -DEMSCRIPTEN -Xclang -iwithsysroot/include/fakesdl -Xclang -iwithsysroot/include/compat -v -MD -MT CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o.d -oCMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 21.0.0git (https:/github.com/llvm/llvm-project 57025b42c43b2f14f7e58692bc19cd53d1b8a45e)]
+        ignore line: [Target: wasm32-unknown-emscripten]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang-21" -cc1 -triple wasm32-unknown-emscripten -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -ffp-contract=on -fno-rounding-math -mconstructor-aliases -target-cpu generic -fvisibility=hidden -debugger-tuning=gdb -fdebug-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM -v -fcoverage-compilation-dir=/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-YuaWbM -resource-dir /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21 -dependency-file CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D EMSCRIPTEN -isysroot /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1 -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1 -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten -internal-isystem /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fignore-exceptions -fexceptions -iwithsysroot/include/fakesdl -iwithsysroot/include/compat -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -o CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.0.0git based upon LLVM 21.0.0git default target x86_64-apple-darwin24.4.0]
+        ignore line: [ignoring nonexistent directory "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten/c++/v1"]
+        ignore line: [ignoring nonexistent directory "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasm32-emscripten"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/fakesdl]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_2ccfb.js]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ccfb.dir/link.txt --verbose=1]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/clang --version]
+        link line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/wasm-ld -o cmTC_2ccfb.wasm CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc-debug -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /var/folders/q7/65nlg0zd5hjgcqv94sy5d8740000gn/T/tmpw45ogkmvlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1]
+          arg [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/wasm-ld] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2ccfb.wasm] ==> ignore
+          arg [CMakeFiles/cmTC_2ccfb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+          arg [-L/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib] ==> dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib]
+          arg [-lGL-getprocaddr] ==> lib [GL-getprocaddr]
+          arg [-lal] ==> lib [al]
+          arg [-lhtml5] ==> lib [html5]
+          arg [-lstubs-debug] ==> lib [stubs-debug]
+          arg [-lnoexit] ==> lib [noexit]
+          arg [-lc-debug] ==> lib [c-debug]
+          arg [-ldlmalloc-debug] ==> lib [dlmalloc-debug]
+          arg [-lcompiler_rt] ==> lib [compiler_rt]
+          arg [-lc++-noexcept] ==> lib [c++-noexcept]
+          arg [-lc++abi-debug-noexcept] ==> lib [c++abi-debug-noexcept]
+          arg [-lsockets] ==> lib [sockets]
+          arg [-mllvm] ==> ignore
+          arg [-combiner-global-alias-analysis=false] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-emscripten-sjlj] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-disable-lsr] ==> ignore
+          arg [/var/folders/q7/65nlg0zd5hjgcqv94sy5d8740000gn/T/tmpw45ogkmvlibemscripten_js_symbols.so] ==> ignore
+          arg [--strip-debug] ==> ignore
+          arg [--export=emscripten_stack_get_end] ==> ignore
+          arg [--export=emscripten_stack_get_free] ==> ignore
+          arg [--export=emscripten_stack_get_base] ==> ignore
+          arg [--export=emscripten_stack_get_current] ==> ignore
+          arg [--export=emscripten_stack_init] ==> ignore
+          arg [--export=_emscripten_stack_alloc] ==> ignore
+          arg [--export=__wasm_call_ctors] ==> ignore
+          arg [--export=_emscripten_stack_restore] ==> ignore
+          arg [--export-if-defined=__start_em_asm] ==> ignore
+          arg [--export-if-defined=__stop_em_asm] ==> ignore
+          arg [--export-if-defined=__start_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__stop_em_lib_deps] ==> ignore
+          arg [--export-if-defined=__start_em_js] ==> ignore
+          arg [--export-if-defined=__stop_em_js] ==> ignore
+          arg [--export-if-defined=main] ==> ignore
+          arg [--export-if-defined=__main_argc_argv] ==> ignore
+          arg [--export-if-defined=fflush] ==> ignore
+          arg [--export-table] ==> ignore
+          arg [-zstack-size=65536] ==> ignore
+          arg [--no-growable-memory] ==> ignore
+          arg [--initial-heap=16777216] ==> ignore
+          arg [--no-entry] ==> ignore
+          arg [--stack-first] ==> ignore
+          arg [--table-base=1] ==> ignore
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/upstream/bin/llvm-objcopy cmTC_2ccfb.wasm cmTC_2ccfb.wasm --remove-section=.debug* --remove-section=producers --remove-section=name]
+        ignore line: [ /Users/anishkumardubey/Desktop/projects/emsdk/node/20.18.0_64bit/bin/node /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/tools/compiler.mjs -]
+        ignore line: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/em++  -v @CMakeFiles/cmTC_2ccfb.dir/objects1.rsp -o cmTC_2ccfb.js]
+        ignore line: []
+        ignore line: []
+        collapse library dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten]
+        collapse library dir [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib] ==> [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib]
+        implicit libs: [GL-getprocaddr;al;html5;stubs-debug;noexit;c-debug;dlmalloc-debug;compiler_rt;c++-noexcept;c++abi-debug-noexcept;sockets]
+        implicit objs: []
+        implicit dirs: [/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/src/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "CMakeLists.txt:35 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-WtdUrR"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-WtdUrR"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-WtdUrR'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b917b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b917b.dir/build.make CMakeFiles/cmTC_b917b.dir/build
+        Building C object CMakeFiles/cmTC_b917b.dir/src.c.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -DCOMPILER_HAS_THOSE_TOGGLES  -Werror=pointer-arith -MD -MT CMakeFiles/cmTC_b917b.dir/src.c.o -MF CMakeFiles/cmTC_b917b.dir/src.c.o.d -o CMakeFiles/cmTC_b917b.dir/src.c.o -c /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-WtdUrR/src.c
+        Linking C executable cmTC_b917b.js
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b917b.dir/link.txt --verbose=1
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc @CMakeFiles/cmTC_b917b.dir/objects1.rsp -o cmTC_b917b.js
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:65 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "examples/CMakeLists.txt:20 (check_symbol_exists)"
+    checks:
+      - "Looking for CLOCK_MONOTONIC"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-lwSTaa"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-lwSTaa"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing  "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/cmake"
+    buildResult:
+      variable: "HAVE_CLOCK_MONOTONIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-lwSTaa'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1f1fd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1f1fd.dir/build.make CMakeFiles/cmTC_1f1fd.dir/build
+        Building C object CMakeFiles/cmTC_1f1fd.dir/CheckSymbolExists.c.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -D_POSIX_C_SOURCE=199309L  -fno-strict-aliasing    -std=gnu99 -MD -MT CMakeFiles/cmTC_1f1fd.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1f1fd.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1f1fd.dir/CheckSymbolExists.c.o -c /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-lwSTaa/CheckSymbolExists.c
+        Linking C executable cmTC_1f1fd.js
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f1fd.dir/link.txt --verbose=1
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -fno-strict-aliasing    @CMakeFiles/cmTC_1f1fd.dir/objects1.rsp -o cmTC_1f1fd.js
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:160 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:65 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "examples/CMakeLists.txt:21 (check_symbol_exists)"
+    checks:
+      - "Looking for QueryPerformanceCounter"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-hjXfBV"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-hjXfBV"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing  "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/cmake"
+    buildResult:
+      variable: "HAVE_QPC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-hjXfBV'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2cd44/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2cd44.dir/build.make CMakeFiles/cmTC_2cd44.dir/build
+        Building C object CMakeFiles/cmTC_2cd44.dir/CheckSymbolExists.c.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -D_POSIX_C_SOURCE=199309L  -fno-strict-aliasing    -std=gnu99 -MD -MT CMakeFiles/cmTC_2cd44.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2cd44.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2cd44.dir/CheckSymbolExists.c.o -c /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-hjXfBV/CheckSymbolExists.c
+        /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-hjXfBV/CheckSymbolExists.c:2:10: fatal error: 'windows.h' file not found
+            2 | #include <windows.h>
+              |          ^~~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_2cd44.dir/CheckSymbolExists.c.o] Error 1
+        make: *** [cmTC_2cd44/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "examples/CMakeLists.txt:29 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for stdatomic.h"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-nKpVGo"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-nKpVGo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/cmake"
+    buildResult:
+      variable: "HAVE_STDATOMIC_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-nKpVGo'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cd10c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cd10c.dir/build.make CMakeFiles/cmTC_cd10c.dir/build
+        Building C object CMakeFiles/cmTC_cd10c.dir/CheckIncludeFile.c.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc   -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -MD -MT CMakeFiles/cmTC_cd10c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cd10c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cd10c.dir/CheckIncludeFile.c.o -c /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-nKpVGo/CheckIncludeFile.c
+        Linking C executable cmTC_cd10c.js
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd10c.dir/link.txt --verbose=1
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   @CMakeFiles/cmTC_cd10c.dir/objects1.rsp -o cmTC_cd10c.js
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "examples/CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-n4XnK2"
+      binary: "/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-n4XnK2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emscan-deps"
+      CMAKE_C_FLAGS: "-fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith "
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cmake/Modules;/Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-n4XnK2'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dc4ac/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc4ac.dir/build.make CMakeFiles/cmTC_dc4ac.dir/build
+        Building C object CMakeFiles/cmTC_dc4ac.dir/src.c.o
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -DCMAKE_HAVE_LIBC_PTHREAD  -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   -std=gnu99 -MD -MT CMakeFiles/cmTC_dc4ac.dir/src.c.o -MF CMakeFiles/cmTC_dc4ac.dir/src.c.o.d -o CMakeFiles/cmTC_dc4ac.dir/src.c.o -c /Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/CMakeFiles/CMakeScratch/TryCompile-n4XnK2/src.c
+        Linking C executable cmTC_dc4ac.js
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc4ac.dir/link.txt --verbose=1
+        /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/emcc -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith   @CMakeFiles/cmTC_dc4ac.dir/objects1.rsp -o cmTC_dc4ac.js
+        
+      exitCode: 0
+...

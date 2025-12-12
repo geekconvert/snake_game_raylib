@@ -1,0 +1,32 @@
+examples/CMakeFiles/text_unicode.dir/text/text_unicode.c.o: \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/examples/text/text_unicode.c \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/src/raylib.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stddef.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdint.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/strings.h

@@ -1,0 +1,27 @@
+examples/CMakeFiles/text_draw_3d.dir/text/text_draw_3d.c.o: \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/examples/text/text_draw_3d.c \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/src/raylib.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_header_macro.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg___gnuc_va_list.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_list.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_arg.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg___va_copy.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stdarg_va_copy.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stdbool.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /Users/anishkumardubey/Desktop/projects/snakegame_raylib/raylib/src/rlgl.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/stddef.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_header_macro.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_ptrdiff_t.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_size_t.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_wchar_t.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_null.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/lib/clang/21/include/__stddef_offsetof.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /Users/anishkumardubey/Desktop/projects/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h

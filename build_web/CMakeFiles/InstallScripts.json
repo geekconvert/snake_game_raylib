@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/cmake_install.cmake",
+		"/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/raylib/cmake_install.cmake",
+		"/Users/anishkumardubey/Desktop/projects/snakegame_raylib/build_web/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
